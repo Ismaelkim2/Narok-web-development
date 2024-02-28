@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Header Example</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<style>
+body{
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  display: inline-block;
+  align-items: flex-start; /* Align items vertically to the top */
+  height:60px ;
+  margin-bottom: 0px;
+  background-color:  green;
+  margin-left: 160px;
+  margin-top: 50px;
+  
+}
+
+.container2 {
+  display: inline-block;
+  height:30px ;
+  width: 65px;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+
+  .container3{
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    height:52px ;
+  }
+  .container3 ul li{
+    margin-left: 0px;
+  }
+  .container3 ul li a{
+    margin-top: 0px;
+  }
+
+
+.site-header {
+  background-color: black;
+  color: #fff;
+  padding: 20px 0;
+  height: 120px;
+  vertical-align: top;
+  position: fixed;
+ 
+}
+
+.site-header h1 {
+  margin-left: 20px; 
+  padding: 0;
+  text-align: center; 
+  vertical-align: top; 
+  margin-top: 0; 
+  font-size: 30px;
+  font-weight: bold;
+  color: aqua;
+}
+
+.site-header nav {
+  display: flex; 
+  align-items: center;
+  margin-top: 0;
+  margin-left: auto; 
+}
+
+.site-header nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+
+.site-header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+  padding-top: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-left: 0px;
+}
+
+.site-header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.site-header nav ul li a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+
+
+.dropdown {
+  display: inline-block;
+
+}
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: blueviolet;
+  color: blue;
+  max-width: 300px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left:-20px ;
+  
+}
+.dropdown-content ul{
+  position:absolute;
+}
+
+.dropdown-content a {
+  color: blue;
+
+}
+.dropdown-content ul li a{
+  color: yellow;
+}
+
+.dropdown-content ul li{
+  color: blue;
+}
+
+.dropdown-content a:hover {
+  background-color: red;
+}
+
+.dropdown:hover .dropdown-content {
+  display: inline-block;
+}
+
+</style>
+
+<body>
+  <header class="site-header">
+
+    <div style="height: 30px;">
+    <h1 style="height: 3px;">Narok County Official Page</h1>
+
+
+<div class="container2">
+        <img src="NakWebImages/nark county logo.jpeg" style="width: 160;border-radius:8px; height: 160px;vertical-align: top;float: left; margin-top:0px;">
+      </div>
+</div>
+ 
+    <div class="container">
+      
+      
+      <div class="container3">
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="file:///C:/Users/User/OneDrive/Desktop/My%20stuffs/NarokFiles/about.htm">About</a></li>
+          <li><a href="file:///C:/Users/User/OneDrive/Desktop/My%20stuffs/NarokFiles/Bursary.htm">Bursary</a></li>
+          <li><a href="#">Download</a></li>
+          <li><a href="#">Vacancies</a></li>
+          <li><a href="#">Tenders & Notices</a></li>
+          <li><a href="#">Officials</a></li>
+
+          <li class="dropdown">
+          <a href="#" class="Wards">wards</a>
+          <div class="dropdown-content">
+            <ul>
+                  <li><a href="#">Mogondo</a></li>
+                    <li><a href="#">Elkerin</a></li>
+                      <li><a href="">Ololmasani</a></li>
+                        <li><a href=""> Kapsasian</a></li>
+                         <li><a href ="" >Kilgoris Central</a></li>
+                          <li><a href="">Keyian</a></li>
+                           <li><a href=""> Angata Barikoi</a></li>
+                            <li><a href="#">Shankoe</a></li>
+                           <li><a href="">Kimintet</a></li>
+                        <li><a href=""> Lolgorian</a></li>
+                       <li><a href="#">Olpusimoru</a></li>
+                    <li><a href="#">Olokurto</a></li>
+                  <li><a href="">Narok Town</a></li>
+                 <li><a href=""> Nkareta’Olorropil</a></li>
+                   <li><a href="#">Melili</a></li>
+                    <li><a href="#">Mosiro</a></li>
+                      <li><a href="">Ildamat</a></li>
+                        <li><a href=""> Keekonyokie</a></li>
+                         <li><a href="#">Suswa</a></li>
+                          <li><a href="#">Majimoto/Naroos</a></li>
+                            <li><a href="">Ulolulung’a</a></li>
+                              <li><a href=""> Melelo</a></li>
+                            <li><a href="#">Loita</a></li>
+                           <li><a href="">Sogoo</a></li>
+                        <li><a href=""> Sagamian</a></li>
+                      <li><a href="#">Ilmotiok</a></li>
+                      <li><a href="">Mara</a></li>
+                     <li><a href=""> Siana</a></li>
+                    <li><a href="">Naikarra</a></li>
+    
+            </ul>
+          </div>
+        </li>
+          <li><a href=" ">Contact Center</a></li>
+        </ul>
+      </nav>
+      </div>
+    </div>
+  </header>
+
+  <style>
+    .ImgMovDiv {
+        display: inline-block;
+        height: 100px;
+        width: 1500px;
+        word-break: break-word;
+        background-color: gray;
+        overflow: hidden; 
+        margin-top: 160px;
+        position: fixed;
+        
+    }
+
+    .ImageMove,
+    .ImageMove1,
+    .ImageMove2,
+    .ImageMove3,
+    .ImageMove4,
+    .ImageMove5 {
+        animation: moveImages 10s infinite;
+        width: 230px;
+        height: 150px;
+    }
+
+    @keyframes moveImages {
+        20% {
+            transform: translateX(100); 
+        }
+        100% {
+            transform: translateX(-100%); 
+        }
+    }
+</style>
+
+<div class="ImgMovDiv">
+   <img src="C:\Users\User\OneDrive\Desktop\My stuffs\NakWebImages\Ngano Farm.jpeg" style="width: 210px; height: 150px;" class="ImageMove">
+    <img src="NakWebImages/maasai.jpeg" style="width: 225px; height: 150px;" class="ImageMove1" > 
+      <img src="NakWebImages/Ngano Farm.jpeg" style="width: 211px; height: 150px;" class="ImageMove2">
+        <img src="NakWebImages/Farm.jpeg" style="width: 210px; height: 150px;" class="ImageMove3">
+          <img src="NakWebImages/wildbeasts and zebra.jpeg" style="width: 210px; height: 150px;" class="ImageMove4">
+          <img src="NakWebImages/flami.jpeg" style="width: 210px; height: 150px;" class="ImageMove5">
+</div>
+
+
+<style>
+.Updates{
+  background-color: red;
+  color: black;
+  font-size: 17px;
+  font-family: arial;
+  font-weight: 500;
+  border-width: 1px;
+  text-align: center;
+}
+.Updates2{
+  
+  color: red;
+  font-family: arial;
+  font-size: 17px;
+  font-weight: bold;
+  border-width: 1px;
+  display: inline-block;
+  position: relative;
+ animation: moveSlowly 10s infinite;
+}
+
+@keyframes moveSlowly {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(552px); 
+    }
+  
+}
+.Update,.Updates2{
+  margin-top: 20px;
+  text-align: center;
+  margin-left: 50px;
+  padding-bottom: 0px;
+}
+.UpdatesDiv{
+  background-color: rgba(255, 50, 152, 0.5);
+  width: 1500px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 160px;
+  position: fixed;
+}
+span{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.div1,.div2{
+  display: inline-block; width: 400px; height: 65px;
+  vertical-align: top; 
+  text-align: center;
+  
+}
+.div2{
+margin-left: 200px;
+}
+
+.Governors{
+  display: inline-block;
+  margin-top: 280px;
+  background-image : url('NakWebImages/nark county logo.jpeg') ;
+  justify-content: center;
+  margin-left: 80px;
+}
+
+  </style>
+
+<div class="UpdatesDiv">
+ <p class="Updates2"> <span>Narok County,the land of diversity</span>. Upcoming Events & News Updates</p>
+</div>
+  
+<div class="Governors">
+  <p style="font-weight:700;color: red;margin-left: 380px;text-decoration-line:underline ;width: 300px; font-size: 20px;">H.E Governor and His Deputy</p>
+<div class="div1">
+  <img src="NarokFiles/NakWebImages/gvn_ntutu_round_portrait.jpg" style="width: 460px;border-radius:8px; height: 300px;" >
+  <p style="color: black; font-weight: 700; margin-left: 40px;width: 300px; font-size: 20px;">H.E Governor Hon.Partrick Keture Ole Ntutu</p>
+  </div>
+  <div class="div2">
+    <img src="NakWebImages/dg_tamalinye-min.jpg" style="width:500px;border-radius:8px; height: 300px;">
+    <p style="color: black; font-weight: 700;margin-left: 40px;width: 300px; font-size: 20px;">H.E Deputy Governor Hon.Tamalinye Koech</p>
+  </div>
+</div>
+
+
+
+<style>
+  .quick{
+    color: #fff;
+    background-color: #edf0f5;
+    padding: 6px 14px;
+    margin-left: 2px;
+    text-transform: none;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.1px;
+    background: linear-gradient(to bottom, green 80%, yellow 20%);
+    border-radius: 10px;
+    width: 450px;
+    height: 26px;
+    display: inline-block;
+    margin-top: 340px
+  }
+  
+    .GenRE, .quickgen{
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+  }
+
+
+form button {
+  background-color: rgb(124, 124, 52);
+  color: rgb(red, green, blue);
+}
+
+</style>
+
+<div  class="quickgen" style="margin-top: 80px;margin-right: 300px;">
+<div class="quick">
+<p style="margin-top: 6px; font-size: 18px;text-align: center;">Quick Links</p>
+</div>
+<ul>
+  <li><a href="#"style="width: 380px;">Department Of Education,Youth Affairs & Sports,Gender,Culture And Social Services</a></li> <br>
+  <li><a href="#"style="width: 380px;">Department Of Agriculture,Livestock Developments and Fisheries</a></li> <br>
+  <li><a href="#"style="width: 380px;">Department Of Public Health And Satnitation</a></li> <br>
+  <li><a href="#"style="width: 380px;">Department Of Public Service Management And Labour</a></li> <br>
+  <li><a href="#"style="width: 380px;">Department Of Public works,Roads and Transport</a></li> <br>
+  <li><a href="#"style="width: 380px;">Department Of Cooperative Development,Tourism And Wildlife</a></li> <br>
+  <li><a href="#"style="width: 380px;">Department Of Finance And Economic Planning</a></li> <br>
+  <li><a href="#"style="width: 380px;">Department Of Land,Housing And Urban Development</a></li> <br>
+  <li><a href="#"style="width: 380px;">Department Of Trade</a></li>
+  
+</ul>
+</div>
+
+
+
+<div class="GenRE"  style="margin-left: 100px;margin-top: 80px;width: 400px;">
+  <div style="border-radius: 10px; display: inline-block; width: 500px;height: auto; margin-top: 340px;background: linear-gradient(to bottom, green 80%, yellow 20%);">
+    <p style="font-weight: bold; color: black; margin-top: 10px; font-size: 18px;">Report Corruption,or any kind of Fraud here:</p>
+  </div>
+  <p style="font-weight: 300; width: 500px; font-size: 18px;">Narok County is a Corruption free zone. Report Corruption or Crime via sending an email to ismaelkim.go.ke or fill in the form below.</p>
+  
+  <form action="">
+    <div>
+       <input type="text" placeholder="Name:"> 
+       <input type="text" placeholder="Email:">  <br> 
+      <input type="text" placeholder="Tel:"> 
+      <input type="text" placeholder="Ward:"><br> <br>
+      <input style="width: 402px;height: 60px;" type="text" placeholder="Report here:...."> <br>
+    
+      <input style="background-color: green;width: 410px;" type="submit" value="Submit"> <br><br>
+    
+    
+    <p style="font-weight: bold;text-decoration: underline;color: red;"> REACH US THROUGH:</p> 
+
+    <button type="button" onclick="openFacbook()" style="color: blue;">Facbook</button> 
+    <button type="button" onclick="openWhatsapp()" style="color: blue;">Whatsapp</button>
+    <button type="button" onclick="openGoogle()" style="color: blue;">Google</button>
+ 
+    <script>
+      function openFacbook(){
+        window.open('https://www.facebook.com/sharer/sharer.php?u=https://example.com', '_blank');
+  }
+
+  function openWhatsapp(){
+    window.open('https://api.whatsapp.com/send?text=Hello%20from%20WhatsApp&phone=+1234567890', '_blank');
+
+  }
+     function openGoogle(){
+      window.open('https://plus.google.com/share?url=https://example.com', '_blank');
+     }
+    </script>
+
+    
+
+    
+    </div>
+  </form>
+  </div>
+  
+
+</body>
+</html>
